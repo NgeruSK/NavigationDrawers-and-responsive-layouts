@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/it_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/it_camera"
+            android:icon="@drawable/ic_camera"
+            android:title="Camera" />
+
+        <item
+            android:id="@+id/it_whatsapp"
+            android:icon="@drawable/ic_whatsapp"
+            android:title="Whatsapp" />
+
+        <item
+            android:id="@+id/it_alert"
+            android:icon="@drawable/ic_alert"
+            android:title="Alert" />
+
+        <item
+            android:id="@+id/it_airplanemode"
+            android:icon="@drawable/ic_airplanemode"
+            android:title="Airplane Mode" />
+
+
+    </group>
+
+    <item android:title="Utilities">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/it_send"
+                    android:icon="@drawable/ic_send"
+                    android:title="Send" />
+
+                <item
+                    android:id="@+id/it_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Sessions">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/it_login"
+                    android:icon="@drawable/ic_login"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/it_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
